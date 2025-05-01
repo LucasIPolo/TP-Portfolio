@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web</title>
+    
+    <style>
+        body,html{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        #Fondo{
+            display: flex;
+            height: 100vh;
+        }
+        #Presentacion{
+            width: 40%;
+            background-color: #333;
+            color: white;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+            padding: 20px;
+            left: 0;
+            top: 0;
+        }
+        #p{
+            background-color: darkkhaki;
+            text-align: center;
+            max-width: 400px;
+            border-radius: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        #Menu{
+            height: 100vh;
+            overflow-y: auto;
+            width: 60%;
+            background-color: #555554;
+            color: rgb(248, 247, 245);
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 14px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #CuadrosPro{
+            flex: ;
+            background-color: #f6f5f1; 
+            border-radius: 10px;
+            padding: 20px;
+            width: auto;
+            box-sizing: border-box;
+            margin-top: 5px;
+        }
+        #ParrafoPro{
+            text-align: center;
+            max-height: 2000px;
+            max-width: 250px;
+        }
+        #Redes,#Proyectos,#Conocimientos,#Info{
+            padding: 20px;
+            gap: 20px;
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            background-color: darkkhaki;
+            border-radius: 20px;
+        }
+        #Contacto{
+            padding: 20px;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            background-color: darkkhaki;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        #Formulario{
+            color:#555554;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            gap: 10px;
+            width: 100%;
+            padding: 10px;
+        }
+        #Imagenes{
+            width: 70px;
+            border-radius: 15px;
+            margin-bottom: 5px;
+        }
+        #Titulos{
+            text-align: center;
+            background-color: #7e7550; 
+            border-radius: 10px;
+            padding: 1px;
+            width: 48%;
+            box-sizing: border-box;
+        }
+        #Subtitulo{
+            color:#555554;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="Fondo">
+        <div id="Presentacion">
+            <h1 id="Titulos">Lucas Polo</h1>
+            <img src="Imagen/Imagen de WhatsApp 2025-04-29 a las 23.30.32_85def7eb.jpg" alt="MiFoto" width="40%" style="border-radius: 50px;">
+            <p id="p">
+                Hola mi nombre es Lucas, soy estudiante de la UTN|FRGP en este momento estudio la Tecnicatura Universitaria en Programacion.
+            </p>
+        </div>
+        <div id="Menu">
+            <h1 id="Titulos">
+                UN POCO DE MI
+            </h1>
+            <div id="Info">
+                <div id="CuadrosPro">
+                    <div id="Subtitulo">
+                        <p id="p" style="color: #555554; background-color: #f6f5f1; max-width: max-content;"> 
+                            Además de programar, en mis tiempos libres me gusta hacer diferentes actividades: dibujar, diseñar, coser, bordar, modelar e imprimir las cosas que diseño. Por el lado del deporte, soy gimnasta acrobático; también di clases y competí. Me considero inquieto y me gusta aprender cosas nuevas todo el tiempo :) 
+                        </p>
+                        <div style="display: flex; flex-direction: row; align-items: center;">
+                            <div >
+                                 <img id="Imagenes" src="Imagen/Pajaro.jpg" alt="C++" width="100px" style="border: 3px solid black; width: 160px !important; border-radius: 50px;" >
+                            </div>
+                            <div>
+                                <img id="Imagenes" src="Imagen/Captura de pantalla 2025-04-30 182114.png" alt="Lampara" style="border: 3px solid black; width: 160px !important; border-radius: 50px;" >
+                            </div>
+                            <div>
+                                <img id="Imagenes" src="Imagen/Captura de pantalla 2025-04-30 183324.png" alt="Modelos 3D" style="border: 3px solid black; height: 200px !important; width:auto; border-radius: 50px;" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 id="Titulos">
+                CONOCIMINETOS
+            </h1>
+            <div id="Conocimientos">
+                <div id="Subtitulo">
+                    <img id="Imagenes" src="https://assets.codeguru.com/uploads/2003/02/C-tutorials.jpg" alt="C++" >
+                    <label for="nombre">C++</label>
+                </div>
+                <div id="Subtitulo">
+                    <img id="Imagenes" src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg" alt=".Net" >
+                    <label for="nombre">.Net</label>
+                </div>
+                <div id="Subtitulo">
+                    <img id="Imagenes" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYpXdy71Pp2cq8aM3qLIOGlQ2E-L7YXOJE193RiIWiaQ_jsTSfn5oevWICpBiqUc7dpvo&usqp=CAU" alt="SQL" >
+                    <label for="nombre">SQL</label>
+                </div>
+                <div id="Subtitulo">
+                    <img id="Imagenes" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREDfArgdvD0GhqjvezYMeg91E4XKw-CsVW1g&s" alt="SFML" >
+                    <label for="nombre">SFML</label>
+                </div>
+                <div id="Subtitulo">
+                    <img id="Imagenes" src="https://play-lh.googleusercontent.com/RslBy1o2NEBYUdRjQtUqLbN-ZM2hpks1mHPMiHMrpAuLqxeBPcFSAjo65nQHbTA53YYn" alt="HTML" >
+                    <label for="nombre">HTML</label>
+                </div>
+                <div id="Subtitulo">
+                    <img id="Imagenes" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrxhwg_X-XpKv5p4iXbwtEoUlkqQAkzJ1zsKqShwZkNhAkFcahVitQ8ydOKpGfbYCjshg&usqp=CAU" alt="CSS" >
+                    <label for="nombre">CSS</label>
+                </div>
+                <div id="Subtitulo">
+                    <img id="Imagenes" src="https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg" alt="C#" >
+                    <label for="nombre">C#</label>
+                </div>
+            </div>
+            <h1 id="Titulos">
+                PROYECTOS
+            </h1>
+            <div id="Proyectos">
+                <div id="Subtitulo">
+                    <label for="nombre">Proyecto n1</label>
+                    <label for="nombre">Cluth.</label>
+                    <a href="https://github.com/LucasIPolo/Proyecto_Programacion-1">
+                        <div id="CuadrosPro">
+                            <div id="Subtitulo">
+                                <img src="Imagen/Captura de pantalla 2025-04-30 162133.png" alt="ClUTH" width="300px" style="border-radius: 50px;">
+                                <p id="ParrafoPro">
+                                    Cluth es un juego por turnos,donde se deben ordenar cartas.Fue mi primer proyecto realizado en la faculta, utilice C++.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="Subtitulo">
+                    <label for="nombre">Proyecto n2</label>
+                    <label for="nombre">Cloud Finder.</label>
+                    <a href="https://github.com/LucasIPolo/Proyecto_Programcion-2">
+                        <div id="CuadrosPro">
+                            <div id="Subtitulo">
+                                <img src="Imagen/Captura de pantalla 2025-04-30 163945.png" alt="ClUTH" width="280px" style="border-radius: 50px; ">
+                                <p id="ParrafoPro">
+                                    Cloud Finder es un juego de un solo jugador, consiste en agarrar globos y sumar puntos.Esta desarrollado en C++ y SFML.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <h1 id="Titulos">
+                REDES
+            </h1>
+            <div id="Redes">
+                <div id="Subtitulo">
+                    <a href="https://www.linkedin.com/in/lucas-leonardo-polo-a671881a4/">
+                        <img id="Imagenes" src="https://static.vecteezy.com/system/resources/previews/018/910/721/non_2x/linkedin-logo-linkedin-symbol-linkedin-icon-free-free-vector.jpg" alt="LinKedin" >
+                    </a>
+                    <label for="nombre">LinKedin</label>
+                </div>
+                <div id="Subtitulo">
+                    <a href="https://github.com/LucasIPolo">
+                        <img id="Imagenes" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjQQPQRIVo9lHmE1fqJZrQxEV1uE8M9IaAYw&s" alt="GitHub" >
+                    </a>
+                    <label for="nombre">GitHub</label>
+                </div>
+            </div>
+            <h1 id="Titulos">
+                CONTACTO
+            </h1>
+            <div id="Contacto">
+                <div id="Formulario">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                    <input type="submit" value="Enviar" onclick="enviarFormulario()">
+
+                    <p id="mensajeExito" style="color: green; display: none; margin-top: 10px;">Enviado con éxito ✅</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function enviarFormulario() {
+
+            document.getElementById("mensajeExito").style.display = "block";
+            
+            document.getElementById("nombre").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("mensaje").value = "";
+
+            setTimeout(() => {
+                document.getElementById("mensajeExito").style.display = "none";
+            }, 3000);
+        }
+        </script>
+</body>
+</html>
